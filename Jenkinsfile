@@ -58,7 +58,7 @@ pipeline {
 
         stage('Deploy to Server') {
             agent {
-                label 'deployment-server-agent'
+                label 'deploy-server-agent'
             }
 
             steps {
