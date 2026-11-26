@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CinePass — Movies, Events, Plays & Sports</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+  <!-- Font Awesome for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Top Header -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <div class="nav-left">
+        <a href="#" class="logo">
+          <span class="logo-text">Cine<span class="highlight">Pass</span></span>
+        </a>
+        <div class="search-bar">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input type="text" placeholder="Search for Movies, Events, Plays, Sports and Activities" />
+        </div>
+      </div>
+      <div class="nav-right">
+        <div class="location-selector">
+          <span>Kozhikode</span>
+          <i class="fa-solid fa-chevron-down"></i>
+        </div>
+        <button class="btn-signin">Sign in</button>
+        <button class="menu-toggle"><i class="fa-solid fa-bars"></i></button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Secondary Sub-Navbar -->
+  <nav class="sub-navbar">
+    <div class="container sub-nav-container">
+      <ul class="nav-links-left">
+        <li><a href="#movies" class="active">Movies</a></li>
+        <li><a href="#stream">Stream</a></li>
+        <li><a href="#events">Events</a></li>
+        <li><a href="#plays">Plays</a></li>
+        <li><a href="#sports">Sports</a></li>
+        <li><a href="#activities">Activities</a></li>
+      </ul>
+      <ul class="nav-links-right">
+        <li><a href="#">ListYourShow</a></li>
+        <li><a href="#">Corporates</a></li>
+        <li><a href="#">Offers</a></li>
+        <li><a href="#">Gift Cards</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Promo Banner -->
+  <section class="hero-section">
+    <div class="container">
+      <div class="hero-banner">
+        <div class="hero-content">
+          <span class="badge">IMAX 3D EXPERIENCE</span>
+          <h1>DUNE: THE ETERNAL SANDS</h1>
+          <p>Witness the epic sci-fi conclusion on the biggest screen near you. Bookings open now!</p>
+          <div class="hero-buttons">
+            <a href="#movies" class="btn-primary">Book Tickets</a>
+            <a href="#trailer" class="btn-secondary"><i class="fa-solid fa-play"></i> Watch Trailer</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Recommended Movies Section -->
+  <section id="movies" class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2>Recommended Movies</h2>
+        <a href="#" class="see-all">See All <i class="fa-solid fa-chevron-right"></i></a>
+      </div>
+
+      <div class="card-grid">
+        <!-- Movie Card 1 -->
+        <div class="movie-card">
+          <div class="poster-wrapper">
+            <img src="https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=500&q=80" alt="Cosmic Odyssey">
+            <div class="rating-bar">
+              <span class="star"><i class="fa-solid fa-star"></i> 9.2/10</span>
+              <span class="votes">142.5K Votes</span>
+            </div>
+          </div>
+          <div class="movie-info">
+            <h3>Cosmic Odyssey</h3>
+            <p class="genre">Sci-Fi / Adventure / Thriller</p>
+            <button class="btn-book">Book Now</button>
+          </div>
+        </div>
+
+        <!-- Movie Card 2 -->
+        <div class="movie-card">
+          <div class="poster-wrapper">
+            <span class="promoted-tag">PROMOTED</span>
+            <img src="https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=500&q=80" alt="Shadow of the Samurai">
+            <div class="rating-bar">
+              <span class="star"><i class="fa-solid fa-star"></i> 8.8/10</span>
+              <span class="votes">89.1K Votes</span>
+            </div>
+          </div>
+          <div class="movie-info">
+            <h3>Shadow of the Samurai</h3>
+            <p class="genre">Action / Historical Drama</p>
+            <button class="btn-book">Book Now</button>
+          </div>
+        </div>
+
+        <!-- Movie Card 3 -->
+        <div class="movie-card">
+          <div class="poster-wrapper">
+            <img src="https://images.unsplash.com/photo-1509198397868-475647b2a1e5?auto=format&fit=crop&w=500&q=80" alt="Neon Nights">
+            <div class="rating-bar">
+              <span class="like"><i class="fa-solid fa-thumbs-up"></i> 94%</span>
+              <span class="votes">34.2K Likes</span>
+            </div>
+          </div>
+          <div class="movie-info">
+            <h3>Neon Nights: Cyber City</h3>
+            <p class="genre">Action / Cyberpunk / Mystery</p>
+            <button class="btn-book">Book Now</button>
+          </div>
+        </div>
+
+        <!-- Movie Card 4 -->
+        <div class="movie-card">
+          <div class="poster-wrapper">
+            <img src="https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=500&q=80" alt="Rhythm of the Heart">
+            <div class="rating-bar">
+              <span class="star"><i class="fa-solid fa-star"></i> 9.0/10</span>
+              <span class="votes">61.8K Votes</span>
+            </div>
+          </div>
+          <div class="movie-info">
+            <h3>Rhythm of the Heart</h3>
+            <p class="genre">Musical / Romance / Drama</p>
+            <button class="btn-book">Book Now</button>
+          </div>
+        </div>
+
+        <!-- Movie Card 5 -->
+        <div class="movie-card">
+          <div class="poster-wrapper">
+            <img src="https://images.unsplash.com/photo-1478720568477-152d9b164e26?auto=format&fit=crop&w=500&q=80" alt="The Last Lighthouse">
+            <div class="rating-bar">
+              <span class="star"><i class="fa-solid fa-star"></i> 8.4/10</span>
+              <span class="votes">22.9K Votes</span>
+            </div>
+          </div>
+          <div class="movie-info">
+            <h3>The Last Lighthouse</h3>
+            <p class="genre">Horror / Psychological Thriller</p>
+            <button class="btn-book">Book Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stream Banner Strip -->
+  <section id="stream" class="container">
+    <div class="stream-strip">
+      <div class="stream-left">
+        <span class="stream-logo"><i class="fa-solid fa-circle-play"></i> CINEPASS <strong>STREAM</strong></span>
+        <p>Endless Entertainment Anytime. Anywhere.</p>
+      </div>
+      <a href="#" class="btn-explore">Explore Now</a>
+    </div>
+  </section>
+
+  <!-- The Best Of Live Events -->
+  <section id="events" class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2>The Best Of Live Events</h2>
+      </div>
+      <div class="events-grid">
+        <div class="event-card" style="background: linear-gradient(135deg, #ff416c, #ff4b2b);">
+          <div class="event-content">
+            <h3>COMEDY SHOWS</h3>
+            <p>15+ Events</p>
+          </div>
+          <i class="fa-solid fa-microphone-lines event-icon"></i>
+        </div>
+        <div class="event-card" style="background: linear-gradient(135deg, #11998e, #38ef7d);">
+          <div class="event-content">
+            <h3>MUSIC CONCERTS</h3>
+            <p>8+ Events</p>
+          </div>
+          <i class="fa-solid fa-guitar event-icon"></i>
+        </div>
+        <div class="event-card" style="background: linear-gradient(135deg, #4e54c8, #8f94fb);">
+          <div class="event-content">
+            <h3>WORKSHOPS & MORE</h3>
+            <p>22+ Events</p>
+          </div>
+          <i class="fa-solid fa-palette event-icon"></i>
+        </div>
+        <div class="event-card" style="background: linear-gradient(135deg, #f7971e, #ffd200);">
+          <div class="event-content">
+            <h3>KIDS & FAMILY</h3>
+            <p>10+ Events</p>
+          </div>
+          <i class="fa-solid fa-masks-theater event-icon"></i>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Premiere Section (Dark Theme Section like BookMyShow) -->
+  <section class="premiere-section">
+    <div class="container">
+      <div class="premiere-header">
+        <div class="premiere-badge">
+          <i class="fa-solid fa-play"></i>
+        </div>
+        <div>
+          <h2>PREMIERE</h2>
+          <p>Brand new releases every Friday</p>
+        </div>
+      </div>
+
+      <div class="card-grid">
+        <div class="movie-card dark-card">
+          <div class="poster-wrapper">
+            <span class="premiere-tag">PREMIERE</span>
+            <img src="https://images.unsplash.com/photo-1536440136628-849c177e76a1?auto=format&fit=crop&w=500&q=80" alt="Midnight in Paris">
+          </div>
+          <div class="movie-info">
+            <h3>Midnight in Vienna</h3>
+            <p class="genre">French / Drama</p>
+          </div>
+        </div>
+
+        <div class="movie-card dark-card">
+          <div class="poster-wrapper">
+            <span class="premiere-tag">PREMIERE</span>
+            <img src="https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=500&q=80" alt="The Director's Cut">
+          </div>
+          <div class="movie-info">
+            <h3>The Director's Cut</h3>
+            <p class="genre">English / Mystery</p>
+          </div>
+        </div>
+
+        <div class="movie-card dark-card">
+          <div class="poster-wrapper">
+            <span class="premiere-tag">PREMIERE</span>
+            <img src="https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?auto=format&fit=crop&w=500&q=80" alt="Velvet Curtain">
+          </div>
+          <div class="movie-info">
+            <h3>Velvet Curtain</h3>
+            <p class="genre">Italian / Thriller</p>
+          </div>
+        </div>
+
+        <div class="movie-card dark-card">
+          <div class="poster-wrapper">
+            <span class="premiere-tag">PREMIERE</span>
+            <img src="https://images.unsplash.com/photo-1440404653325-ab127d49abc1?auto=format&fit=crop&w=500&q=80" alt="Arctic Silence">
+          </div>
+          <div class="movie-info">
+            <h3>Arctic Silence</h3>
+            <p class="genre">Norwegian / Survival</p>
+          </div>
+        </div>
+
+        <div class="movie-card dark-card">
+          <div class="poster-wrapper">
+            <span class="premiere-tag">PREMIERE</span>
+            <img src="https://images.unsplash.com/photo-1594909122845-11baa439b7bf?auto=format&fit=crop&w=500&q=80" alt="Golden Horizon">
+          </div>
+          <div class="movie-info">
+            <h3>Golden Horizon</h3>
+            <p class="genre">Spanish / Adventure</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-cta">
+          <i class="fa-solid fa-tent"></i>
+          <span><strong>List your Show</strong> Got a show, event, activity or a great experience? Partner with us & get listed on CinePass.</span>
+        </div>
+        <a href="#" class="btn-primary">Contact today!</a>
+      </div>
+
+      <div class="footer-services">
+        <div class="service-item">
+          <i class="fa-solid fa-headset"></i>
+          <p>24/7 CUSTOMER CARE</p>
+        </div>
+        <div class="service-item">
+          <i class="fa-solid fa-ticket"></i>
+          <p>RESEND BOOKING CONFIRMATION</p>
+        </div>
+        <div class="service-item">
+          <i class="fa-solid fa-envelope-open-text"></i>
+          <p>SUBSCRIBE TO THE NEWSLETTER</p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="footer-logo">
+          <span class="line"></span>
+          <span class="logo-text">Cine<span class="highlight">Pass</span></span>
+          <span class="line"></span>
+        </div>
+        <div class="social-icons">
+          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+        <p class="copyright">Copyright 2026 © CinePass Entertainment Pvt. Ltd. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
